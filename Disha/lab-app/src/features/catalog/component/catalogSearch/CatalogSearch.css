@@ -1,0 +1,60 @@
+.search {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.search-advanced-search-section {
+    width: 100%;
+    max-width: 1300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.search-item-area {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    justify-content: center;
+}
+
+.search-pages {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstCard {
+    border-radius: 12px;
+    padding: 8px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+

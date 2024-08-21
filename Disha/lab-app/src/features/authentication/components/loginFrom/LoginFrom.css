@@ -1,0 +1,93 @@
+
+
+.heading {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #fffbfb;
+    text-align: center;
+}
+
+.login-form-error {
+    margin-bottom: 16px;
+    color: #aa1d1f;
+    text-align: center;
+    font-size:12px;
+}
+.lform {
+    font-size:12px;
+}
+
+.login-form-input-group {
+    margin-bottom: 16px;
+}
+
+.login-form-input {
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-form-input::placeholder {
+    color: #999;
+}
+
+.login-form-submit {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #141212;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.login-form-submit:hover {
+    background-color: var(--background-primary);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: var(--primary);
+}
+
+.login-form-register {
+    color: var(--primary);
+    cursor: pointer;
+    margin-left: 4px;
+}
+
+.login-form-register:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .login-form {
+
+        padding: 20px;
+        max-width: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .heading {
+        margin-bottom: 16px;
+        font-size: 1rem;
+    }
+
+    .login-form-input {
+        height: 36px;
+        font-size: 0.9rem;
+        padding: 6px;
+    }
+
+    .login-form-submit {
+        height: 36px;
+        font-size: 0.9rem;
+    }
+    .register-text{
+        font-size: .75rem;
+    }
+}

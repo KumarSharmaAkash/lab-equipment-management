@@ -1,0 +1,48 @@
+.component-checkout {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    margin-bottom: 32px;
+}
+
+.component-checkout-form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.component-checkout-input {
+
+    height: 2.25rem;
+    width: 80%;
+    font-size: 1rem;
+    overflow: hidden;
+    color: black;
+    text-overflow: ellipsis;
+    margin-bottom: 8px;
+    background-color: rgba(240, 248, 255, 0.818);
+    border-radius: 14px;
+}
+
+.component-checkout-button {
+    width: 80%;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    margin-top: 8px;
+    border-radius: 12px;
+    border: none;
+    background-color:purple;
+    cursor: pointer;
+}
+
+.component-checkout-button:hover {
+
+    border: 2px solid white;
+    background-color: rgb(2, 107, 2);
+}

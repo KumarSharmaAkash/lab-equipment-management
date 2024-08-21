@@ -1,0 +1,107 @@
+.firstCard {
+    height: 400px;
+    width: 300px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+    margin-right: 8px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    cursor: pointer;
+}
+.firstCard:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.component-card-cover {
+
+    height: 40%;
+    transition: transform 0.5s ease;
+}
+
+.component-card-cover:hover {
+    transform: scale(1.05); 
+}
+
+.component-card-info {
+    height: 50%;
+    width: 100%;
+    margin: 0;
+}
+
+.component-card-title {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.3rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.component-card-Value {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.3rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.component-card-description {
+    width: 100%;
+    max-height: 70%;
+    font-size: .60rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom:5px;
+}
+
+.component-card-loan-button {
+    width: 90%;
+    height: 2.5rem;
+    border: none;
+    border-radius: 22px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.available {
+    color: aliceblue;
+    background-color: rgb(4, 84, 196);
+}
+
+.unavailable {
+    background-color: #ba4d4fad;
+    color: aliceblue;
+}
+.unavailable:hover{
+    color: aliceblue;
+    background-color: rgb(4, 84, 196);
+    border: 2px solid #CB4C4E;
+}
+.available:hover{
+    color: aliceblue;
+    background-color: #ba4d4fad;
+    border: 2px solid rgb(4,84,196);
+}
+
+.checkout:hover {
+    cursor: pointer;
+    border: 2px solid #CB4C4E;
+    border: 2px solid  green;
+}
+.checkin:hover {
+    cursor: pointer;
+    background-color: rgb(4, 114, 150);
+    border: 2px solid #CB4C4E;
+}

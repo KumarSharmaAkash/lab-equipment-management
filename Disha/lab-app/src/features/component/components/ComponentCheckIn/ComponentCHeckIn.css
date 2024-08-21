@@ -1,0 +1,16 @@
+.component-checkin-button {
+    width: 80%;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    margin-top: 8px;
+    border-radius: 12px;
+    border: none;
+    background-color:purple;
+    cursor: pointer;
+}
+
+.component-checkin-button:hover {
+
+    border: 2px solid white;
+    background-color: rgb(2, 107, 2);
+}

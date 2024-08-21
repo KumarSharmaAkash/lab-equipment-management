@@ -1,0 +1,22 @@
+.overView{
+    margin-top:70px;
+} 
+
+@media (max-width: 768px) {
+    .overView {
+        padding: 16px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .overView {
+        padding: 12px; 
+    }
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+  }

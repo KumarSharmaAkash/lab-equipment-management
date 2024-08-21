@@ -1,0 +1,38 @@
+
+.catalog-overview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+  
+}
+
+.catalog-overview p {
+    margin: 10px 0;
+}
+.loading-message{
+    margin-left: 50%;
+    margin-top: 10%;
+    padding-bottom: 30%
+}
+
+@media (max-width: 768px) {
+    .catalog-overview {
+        padding: 16px; 
+    }
+    .loading-message{
+        margin-left: 43%;
+        margin-top: 40%;
+        padding-bottom: 100%
+    }
+}
+
+@media (max-width: 480px) {
+    .catalog-overview {
+        padding: 12px; 
+    }
+}
+
+

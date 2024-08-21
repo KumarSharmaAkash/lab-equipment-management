@@ -1,0 +1,44 @@
+.component-history-item {
+    height: fit-content;
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8px;
+}
+
+.component-history-item-group {
+    width: 49%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.red {
+    color: #CB4C4E;
+}
+
+.green {
+    color: #3CB043;
+}
+
+@media (max-width: 768px) {
+    .component-history-item {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 12px;
+    }
+
+    .component-history-item-group {
+        width: 100%;
+        margin-bottom: 16px; 
+    }
+
+    .red, .green {
+        font-size: 90%; 
+    }
+}
