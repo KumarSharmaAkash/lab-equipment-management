@@ -1,6 +1,4 @@
-Here's a README file for your project:
 
----
 
 # Lab Management System
 
