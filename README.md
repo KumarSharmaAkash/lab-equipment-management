@@ -4,7 +4,6 @@
 
 This project is a web application designed for college students, enabling them to access and manage lab components efficiently. Built using **TypeScript** and **ReactJS**, the website allows students to browse available components, loan them for their projects, and return them on time, ensuring a streamlined process for lab resource management.
 
-![Lab Management System Screenshot](./images/home)
 
 ## Key Features
 
